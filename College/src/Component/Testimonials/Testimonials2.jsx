@@ -20,7 +20,7 @@ export const Testimonials2 = () => {
                 <span>{item.location}</span>
               </div>
             </div>
-            <span>{item.review}</span>
+            <span className="review">{item.review}</span>
           </div>
         ))}
       </div>

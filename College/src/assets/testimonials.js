@@ -16,16 +16,16 @@ export const testimonies = [
         location: "USA",
         review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis qui dolores consequuntur! Molestiae ipsa cupiditate id consequuntur sequi commodi veritatis tempora ad doloribus voluptatem! Voluptate vero cum mollitia quidem sint eligendi nulla illo fugiat voluptatibus dolor dolorum, harum suscipit quod!"
     },
-    {
-        image: user_3,
-        name: "Catherine Miles",
-        location: "USA",
-        review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis qui dolores consequuntur! Molestiae ipsa cupiditate id consequuntur sequi commodi veritatis tempora ad doloribus voluptatem! Voluptate vero cum mollitia quidem sint eligendi nulla illo fugiat voluptatibus dolor dolorum, harum suscipit quod!"
-    },
-    {
-        image: user_4,
-        name: "David Owen",
-        location: "USA",
-        review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis qui dolores consequuntur! Molestiae ipsa cupiditate id consequuntur sequi commodi veritatis tempora ad doloribus voluptatem! Voluptate vero cum mollitia quidem sint eligendi nulla illo fugiat voluptatibus dolor dolorum, harum suscipit quod!"
-    },
+    // {
+    //     image: user_3,
+    //     name: "Catherine Miles",
+    //     location: "USA",
+    //     review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis qui dolores consequuntur! Molestiae ipsa cupiditate id consequuntur sequi commodi veritatis tempora ad doloribus voluptatem! Voluptate vero cum mollitia quidem sint eligendi nulla illo fugiat voluptatibus dolor dolorum, harum suscipit quod!"
+    // },
+    // {
+    //     image: user_4,
+    //     name: "David Owen",
+    //     location: "USA",
+    //     review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis qui dolores consequuntur! Molestiae ipsa cupiditate id consequuntur sequi commodi veritatis tempora ad doloribus voluptatem! Voluptate vero cum mollitia quidem sint eligendi nulla illo fugiat voluptatibus dolor dolorum, harum suscipit quod!"
+    // },
 ]

@@ -44,3 +44,24 @@
     rgba(255, 0, 0, 0.438) 90%
   );
 }
+@media (max-width: 750px) {
+  .campus-images{
+    display: block;
+
+  }
+  .images-container{
+    margin-bottom: 1.4rem;
+  }
+  .images-container > img{
+   max-height: 47vh;
+  }
+  .campus > button {
+    padding: 1%;
+    margin-top: 0%;
+    font-size: 1rem;
+
+  }
+  .campus > button > img {
+    width: 10%;
+  }
+}

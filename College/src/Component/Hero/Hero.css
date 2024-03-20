@@ -57,10 +57,19 @@
     width: 90%;
   }
   .hero .hero-text > :nth-child(1) {
-    font-size: 2rem;
+    font-size: 1.4rem;
     letter-spacing: 1px;
   }
   .hero .hero-text .explore > img {
     width: 13%;
+  }
+  .hero .hero-text > :nth-child(2) > p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .exploretxt{
+    font-size: 0.8rem;
+   
   }
 }

@@ -1,86 +1,124 @@
 .testimonials {
-    margin: 5%;
-    display: flex;
-    justify-content: center;
-    gap: 3%;
-  
-    /* position: relative; */
-  }
-  
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+
+  /* position: relative; */
+}
+
+.testimonials-maindiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  gap: 4rem;
+  overflow: hidden;
+  padding: 2% 2%;
+}
+
+.arrow1,
+.arrow2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.backbtn,
+.nextbtn {
+  background-color: blue;
+  border-radius: 50%;
+  width: 3rem;
+  padding: 20%;
+}
+
+.test-Container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  box-shadow: 0 0 20px -5px blue;
+  overflow-x: hidden;
+  min-width: calc(50% - 2rem); /* Adjusted width for two containers */
+  max-width: calc(50% - 2rem); /* Adjusted width for two containers */
+  padding: 2% 2%;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.testimony-head {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+
+.testimony-head > img {
+  width: 20%;
+  border-radius: 60%;
+  border: 3px solid blue;
+}
+
+.testimony-Contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.testimony-Contacts > :nth-child(1) {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: blue;
+}
+
+.testimony-Contacts > :nth-child(2) {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.test-Container > :nth-child(2) {
+  color:darkslategray;
+  font-weight: normal;
+  font-size: 1.2rem;
+  max-width: 100%;
+}
+
+@media (max-width: 750px) {
   .testimonials-maindiv {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    flex-direction: column;
+    position: relative;
+  }
 
-    gap: 4rem;
-    overflow: hidden;
-    padding: 2% 2%;
-  }
-  
-  .arrow1,
-  .arrow2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .backbtn,
-  .nextbtn {
-    background-color: blue;
-    border-radius: 50%;
-    width: 3rem;
-    padding: 20%;
-  }
-  
   .test-Container {
-    display: flex;
-    flex-direction: column;
-    gap: 1.3rem;
-    box-shadow: 0 0 20px -5px blue;
-    overflow-x: hidden;
-    min-width: calc(50% - 2rem); /* Adjusted width for two containers */
-    max-width: calc(50% - 2rem); /* Adjusted width for two containers */
-    padding: 2% 2%;
-    border-radius: 10px;
-    transition: 0.5s;
-  }
-  
-  .testimony-head {
-    display: flex;
-    align-items: center;
-    gap: 2%;
-  }
-  
-  .testimony-head > img {
-    width: 20%;
-    border-radius: 60%;
-    border: 3px solid blue;
-  }
-  
-  .testimony-Contacts {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .testimony-Contacts > :nth-child(1) {
-    text-transform: capitalize;
-    font-weight: 700;
-    font-size: 1.4rem;
-    color: blue;
-  }
-  
-  .testimony-Contacts > :nth-child(2) {
-    text-transform: capitalize;
-    font-weight: 500;
-    font-size: 1.2rem;
-    color: black;
-  }
-  
-  .test-Container > :nth-child(2) {
-    color: darkslategray;
-    font-weight: normal;
-    font-size: 1.2rem;
+    display: block;
+    min-width: 100%;
     max-width: 100%;
   }
+  .testimony-head {
+    margin-bottom: 1rem;
+  }
+
+  .arrow1,
+  .arrow2 {
+    position: absolute;
+    left: 0;
+    top: 90%;
+    bottom: 0;
+  }
+  .testimony-head > img {
+    width: 25%;
+  }
+  .testimony-Contacts > :nth-child(1) {
+    font-size: 1rem;
+  }
+  .testimony-Contacts > :nth-child(2) {
+    font-size: 0.9rem;
+  }
+  .test-Container > :nth-child(2) {
+    font-size: small;
+    padding-bottom: 3rem;
+  }
   
+}

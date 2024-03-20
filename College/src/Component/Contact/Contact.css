@@ -123,3 +123,57 @@ textarea::placeholder {
   margin: 20px 0;
   color: gray;
 }
+
+@media (max-width: 750px) {
+  .contact{
+    display: block;
+  }
+  .contact-left-header > span {
+    font-size: 1.1rem;
+  }
+  .contact-left-header > img{
+    width: 1.3rem;
+  }
+
+  .contact-left .contact-p{
+    font-size: small;
+   
+  }
+
+  .email-container{
+    padding-bottom: 0.5rem;
+  }
+  .contact-left .email-container > img{
+    width: 1rem;
+  }
+
+  .contact-left .email-container > span {
+    font-size: 0.9rem;
+  }
+  .contact-right{
+    margin-top: 2rem;
+  }
+  input::placeholder,
+textarea::placeholder {
+font-size: small;
+
+}
+.contact-right > form > input {
+height: 1.7rem;
+font-size: small;
+padding-left: 1rem;
+}
+.contact-right > form > textarea{
+  width: 80%;
+  padding-left: 1rem;
+  font-size: small;
+}
+.contact-right > form > .button-div > button {
+  height: 1.5rem;
+  font-size: 0.9rem;
+  width: 120px;
+}
+.contact-right > form > .button-div > button > img {
+  width: 1rem;
+}
+}

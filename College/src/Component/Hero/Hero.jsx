@@ -14,8 +14,8 @@ const Hero = () => {
           </p>
         </span>
         <div className="explore">
-          <span>Explore More</span>
-          <img src={rightArrow} alt="" />
+          <span className="exploretxt">Explore More</span>
+          <img src={rightArrow} alt="" className="right-arrow"/>
         </div>
       </div>
     </div>

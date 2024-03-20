@@ -43,8 +43,7 @@ export const Contact = () => {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
           expedita recusandae nihil beatae odio inventore amet officiis
           consequuntur enim, tenetur atque perspiciatis itaque? Debitis,
-          accusamus eos deserunt, quas sapiente corrupti, alias id mollitia
-          fugiat eaque minus molestias explicabo possimus! Corporis!
+          
         </span>
         <div className="email-container">
           <img src={mail_icon} alt="" />

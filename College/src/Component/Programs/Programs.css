@@ -62,5 +62,13 @@
 }
 .programs {
   margin-bottom: 6rem;
+  display: block;
+  
+ 
+}
+.programImages{
+  gap: 2rem;
+  margin-bottom: 1rem;
+
 }
 }

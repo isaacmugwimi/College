@@ -67,5 +67,23 @@
 }
 
 @media (max-width: 750px) {
-  
+  .about {
+    display: block;
+  }
+  .about-right > :nth-child(1){
+    font-size: 0.9rem;
+    margin: 1rem 0 0 0;
+  }
+  .about-right > :nth-child(2){
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .about-right > :nth-child(3),
+.about-right > :nth-child(4),
+.about-right > :nth-child(5){
+  font-size: small;
+  padding-top: 1rem;
+}
+    
+
 }
