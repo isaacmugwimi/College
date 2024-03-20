@@ -3,11 +3,7 @@ import next_icon from "../../assets/next-icon.png";
 import { testimonies } from "../../assets/testimonials.js";
 import "./Testimonials2.css";
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
 export const Testimonials2 = () => {
-
   return (
     <div className="testimonials ">
       {" "}
@@ -15,20 +11,18 @@ export const Testimonials2 = () => {
         <img src={back_icon} alt="" className="backbtn" />
       </div>
       <div className="testimonials-maindiv">
-    
-          {testimonies.map((item, index) => (
-            <div className="test-Container" key={index}>
-              <div className="testimony-head">
-                <img src={item.image} alt="" />
-                <div className="testimony-Contacts">
-                  <span>{item.name}</span>
-                  <span>{item.location}</span>
-                </div>
+        {testimonies.map((item, index) => (
+          <div className="test-Container" key={index}>
+            <div className="testimony-head">
+              <img src={item.image} alt="" />
+              <div className="testimony-Contacts">
+                <span>{item.name}</span>
+                <span>{item.location}</span>
               </div>
-              <span>{item.review}</span>
             </div>
-          ))}
-       
+            <span>{item.review}</span>
+          </div>
+        ))}
       </div>
       <div className="arrow2">
         {" "}

@@ -51,3 +51,16 @@
 .hero .hero-text .explore > img {
   width: 20%;
 }
+
+@media (max-width: 750px) {
+  .hero-text {
+    width: 90%;
+  }
+  .hero .hero-text > :nth-child(1) {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  .hero .hero-text .explore > img {
+    width: 13%;
+  }
+}

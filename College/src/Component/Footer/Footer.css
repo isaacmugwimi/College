@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 3%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: darkslategray;
+}
+.footer > hr {
+  width: 100%;
+}
+
+.footer .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .footer-content .footer-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

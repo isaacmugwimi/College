@@ -14,7 +14,7 @@ nav {
   justify-content: space-between;
 }
 .nav-logo {
-  width: 15%;
+  width: 18%;
 }
 
 nav > ul > li {
@@ -35,4 +35,42 @@ ul > li:hover {
 .dark-nav {
   background-color: blue;
   transition: 0.4s;
+}
+
+/* media query */
+
+@media (max-width: 750px) {
+  .nav-logo {
+    width: 7rem;
+  }
+  nav{
+    padding-top: 0.3rem;
+  }
+
+  nav ul {
+    background: blue;
+  }
+  nav > ul > li {
+    display: block;
+    margin: 5px 10px;
+   
+    
+  }
+  /* .nav-logo {
+    align-self: self-start;
+  } */
+  nav ul {
+    position: fixed;
+    z-index: 50;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    transition: 0.5s;
+    padding-top: 5%;
+  }
+  .hamburger-icon {
+    width: 2.0rem;
+    z-index: 99;
+  }
 }

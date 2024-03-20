@@ -1,0 +1,125 @@
+.contact {
+  margin: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-left {
+  flex-basis: 45%;
+}
+
+.contact-left-header {
+  display: flex;
+  gap: 1%;
+  padding-bottom: 4%;
+}
+.contact-left-header > span {
+  font-size: 1.9rem;
+  font-weight: 400;
+  color: black;
+}
+
+.contact-left-header > img {
+  width: 2.5rem;
+}
+
+.contact-left .contact-p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: darkslategray;
+}
+
+.contact-left .email-container {
+  display: flex;
+  margin-top: 3%;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-left .email-container:hover {
+  background: lightblue;
+}
+
+.contact-left .email-container > img {
+  width: 2rem;
+  cursor: pointer;
+}
+
+.contact-left .email-container > span {
+  font-size: 1.3rem;
+  color: darkcyan;
+  cursor: pointer;
+}
+
+.contact-right {
+  flex-basis: 45%;
+
+  font-size: 1.2rem;
+}
+input::placeholder,
+textarea::placeholder {
+  font-size: 1.4rem;
+  color: darkcyan;
+}
+.contact-right > form > input {
+  padding: 2%;
+  width: 80%;
+  font-size: 1.2rem;
+  outline: none;
+  background: rgba(128, 128, 128, 0.123);
+  border: none;
+  border-radius: 30px;
+  height: 3rem;
+  margin-bottom: 1.3rem;
+  color: darkslategray;
+
+  resize: none;
+}
+
+.contact-right > form > textarea {
+  outline: none;
+  font-size: 1.2rem;
+  background: rgba(128, 128, 128, 0.123);
+  margin-bottom: 1.3rem;
+  border: none;
+  padding: 2%;
+  resize: none;
+  color: darkslategray;
+}
+
+.button-div {
+  display: flex;
+  gap: 10%;
+}
+.contact-right > form > .button-div > button {
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  gap: 1rem;
+  color: white;
+  background: blue;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  height: 2.7rem;
+  width: 160px;
+  justify-content: center;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.5s tween;
+}
+.contact-right > form > .button-div > button:hover {
+  transform: scale(0.9);
+  background: linear-gradient(45deg, blue, red 80%);
+}
+
+.contact-right > form > .button-div > button > img {
+  width: 2rem;
+}
+
+.sending-message {
+  display: block;
+  margin: 20px 0;
+  color: gray;
+}
