@@ -92,7 +92,7 @@ export const Contact = () => {
           <br />
           <div className="button-div">
             <button>
-              Submit now <img src={white_arrow_icon} alt="" />
+              Submit<img src={white_arrow_icon} alt="" />
             </button>
             <button
               type="reset"
