@@ -6,9 +6,7 @@ Description
 Features
     Homepage: Introduction to the college, latest news, and upcoming events.
     About Us: Information about the college, its history, mission, and vision.
-    Programs: Details about the academic programs offered by the college.
-
-    Contact Us: Contact information and a form for inquiries       feedback.
+    Programs: Details about the academic programs offered by the college
 
 Technologies Used
     HTML
