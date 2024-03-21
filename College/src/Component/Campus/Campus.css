@@ -46,15 +46,15 @@
 }
 @media (max-width: 750px) {
   .campus-images{
-    display: block;
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 0.8rem;
 
   }
-  .images-container{
-    margin-bottom: 1.4rem;
-  }
-  .images-container > img{
+ 
+  /* .images-container > img{
    max-height: 47vh;
-  }
+  } */
   .campus > button {
     padding: 1%;
     margin-top: 0%;

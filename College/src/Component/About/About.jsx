@@ -1,15 +1,16 @@
 import about_img from "../../assets/about.png";
 import play_icon from "../../assets/play-icon.png";
 import "./About.css";
+import PropTypes from "prop-types";
 
-export const About = () => {
+export const About = ({ setPlayState }) => {
+  const playVideo = () => {setPlayState(true)};
   return (
     <div className="about nav-container">
       <div className="about-left">
-        <img src={about_img} alt="" className="image1" />
-       
-          <img src={play_icon} alt="" className="image2" />
-        
+        <img src={about_img} alt="" className="image1" onClick={playVideo} />
+
+        <img src={play_icon} alt="" className="image2" onClick={playVideo} />
       </div>
       <div className="about-right">
         <span>About university</span>
@@ -37,4 +38,7 @@ export const About = () => {
       </div>
     </div>
   );
+};
+About.propTypes = {
+  setPlayState: PropTypes.bool,
 };
