@@ -9,7 +9,8 @@ export const Title = (props) => {
   );
 };
 
+
 Title.propTypes = {
-    subTitle:PopTypes.string,
-    title:PopTypes.string,
+  subTitle: PopTypes.string,
+  title: PopTypes.string,
 };

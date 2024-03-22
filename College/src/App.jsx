@@ -11,17 +11,19 @@ import { Testimonials2 } from "./Component/Testimonials/Testimonials2.jsx";
 import { Title } from "./Component/Title/Title.jsx";
 import { VideoPlayer } from "./Component/VideoPlayer/VideoPlayer.jsx";
 const App = () => {
-  const [playState, setPlayState] =useState(false)
+  const [playState, setPlayState] = useState(false);
   return (
     <div>
       <Navbar />
+     
       <Hero />
 
       {/* <Program2 /> */}
 
       <Title subTitle="our program" title="what we offer" />
+
       <Programs />
-      <About setPlayState={setPlayState}/>
+      <About setPlayState={setPlayState} />
       <Title subTitle="Gallery" title="Campus Photos" />
       <Campus />
       <Title subTitle="Testimonials" title="what students says" />
@@ -30,7 +32,7 @@ const App = () => {
       <Title subTitle="Contact Us" title="Get in touch" />
       <Contact />
       <Footer />
-      <VideoPlayer playState={playState} setPlayState={setPlayState}/>
+      <VideoPlayer playState={playState} setPlayState={setPlayState} />
     </div>
   );
 };
